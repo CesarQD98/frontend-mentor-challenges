@@ -1,0 +1,67 @@
+.card {
+  display: flex;
+}
+
+.card main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  height: 250px;
+  background-color: var(--violet-blue);
+  padding: 1.5rem 1.5rem;
+  border-radius: 5%;
+}
+
+.card main > h1 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--light-lavender);
+}
+
+.card aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.card-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  font-size: 0.6rem;
+  color: var(--light-lavender);
+}
+
+.score-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-info span {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.score-info p {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: var(--light-lavender);
+}
+
+.criteria-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
